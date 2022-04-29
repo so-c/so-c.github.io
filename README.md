@@ -45,12 +45,16 @@
 
 ## その他
 
-* [鬼っ子ハンターついなちゃんWiki](https://tsuinawiki.cyou/creater/%E9%8F%A1%E5%8F%8C%E5%8F%B8)
-  * ついなちゃんワールドの作品はジャンル問わずこちらにも
-* [togetter](https://togetter.com/id/SO_C)
-  * 流れ去っていくツイートを留めおきたいときに
+* [CoeFont](https://coefont.cloud/coefonts/6f459c2e-1294-4543-b4ae-2a19336ceb17)
+  * 音声合成の中の人気分を知りたくてつい
 * [Recotte Studio TIPS Wiki](https://wikiwiki.jp/recosta/)
   * 管理人
 * [欲しいものリスト](https://www.amazon.co.jp/hz/wishlist/ls/1NJZV3RGORDVP)
   * 創作の道具・資料はあるに越したことはないので、もしいただけると助かります
+
+## まとめ系
+* [鬼っ子ハンターついなちゃんWiki](https://tsuinawiki.cyou/creater/%E9%8F%A1%E5%8F%8C%E5%8F%B8)
+  * ついなちゃんワールドの作品はジャンル問わずこちらにも
+* [togetter](https://togetter.com/id/SO_C)
+  * 流れ去っていくツイートを留めおきたいときに
 * [ランディングページ](https://so-c.github.io/) ココ
