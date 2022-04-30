@@ -57,4 +57,6 @@
   * ついなちゃんワールドの作品はジャンル問わずこちらにも
 * [togetter](https://togetter.com/id/SO_C)
   * 流れ去っていくツイートを留めおきたいときに
+* [twilog](https://twilog.org/SO_C)
+  * 自分のツイート検索用
 * [ランディングページ](https://so-c.github.io/) ココ
