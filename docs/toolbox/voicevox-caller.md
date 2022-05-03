@@ -19,25 +19,31 @@ layout: default
 
 1. [Releaseページ](https://github.com/so-c/soc-toolbox/releases)から`voicecox-caller-vX.Y.Z.a.zip`をダウンロードして好きなフォルダに展開する
 2. Recotte Studioの [環境設定 > ユーザー定義音声連携の設定] を開く
+<a href="../img/recosta_settings.png"><img src="../img/recosta_settings.png" alt="環境設定" style="margin: 0.5em 0; width: 480px"></a>
 3. インポートボタンを押し、インストールしたフォルダにある`VOICEVOX(PowerShell 5.x).rvls`を選ぶ
+<a href="../img/recosta_user_def.png"><img src="../img/recosta_user_def.png" alt="インポートボタン" style="margin: 0.5em 0; width: 480px"></a>
 4. [引数] 欄の`-File ""`のダブルクオーテーション内に、インストールしたフォルダにある`voicevox-caller.ps1`へのフルパスを書き足す
-5. [適用] ボタンを押す
-
-[引数]の設定例
-
+<a href="../img/recosta_args.png"><img src="../img/recosta_args.png" alt="[引数]" style="margin: 0.5em 0; width: 480px"></a>
 ```text
 -ExecutionPolicy Bypass -File "C:\Users\YourName\Documents\voicevox-caller\voicevox-caller.ps1" -text "%c" -speaker "%s" -output "%o"
 ```
+5. [適用] ボタンを押す
 
 ### 使用準備
 
 1. 話者レイヤーを追加してプロパティーを開く
 1. [話者名] (≠名前) をキャラクター名で始まるように設定する
    * スタイルがあるキャラクタは「四国めたん(ツンツン)」のように指定できます
+   
 1. [音声連携] でインストールした"VOICEVOX(PoerShell 5.x)" を選ぶ
-1. [OK] ボタンを押す
+1. [OK] ボタンを押す<br>
+<a href="../img/recosta_speaker_layer.png"><img src="../img/recosta_speaker_layer.png" alt="話者レイヤープロパティー" style="margin: 0.5em 0; width: 480px"></a>
 
-### 話者一覧
+### 使用方法
+
+VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてください。
+
+### 話者・スタイル一覧
 
 <table>
 <tr>
@@ -79,8 +85,6 @@ layout: default
     </tr>
 </table>
 
-### スタイル一覧
-
 <table>
     <tr>
         <th style="text-align: center;">話者名</th>
@@ -120,14 +124,10 @@ layout: default
     </tr>
 </table>
 
-### 使用方法
-
-VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてください。
-
 ### 参考動画
-[![参考動画](https://img.youtube.com/vi/N_VCF2ABKA8/0.jpg)](https://www.youtube.com/watch?v=N_VCF2ABKA8)
+<script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm39404090/script?w=720&h=480"></script><noscript><a href="https://www.nicovideo.jp/watch/sm39404090">【2分で教えてついなちゃん♡】レコスタのユーザ定義音声連携でA.I.VOICEやVOICEVOX【Recotte Studio】</a></noscript>
 
-[Recotte Studio（レコスタ）ユーザー定義音声連携 \- YouTube](https://www.youtube.com/watch?v=N_VCF2ABKA8)
+[YouTubeはこちら](https://www.youtube.com/watch?v=N_VCF2ABKA8)
 
 ### TIPS
 
