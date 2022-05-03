@@ -39,26 +39,86 @@ layout: default
 
 ### 話者一覧
 
-| VOICEVOX ||||
-| --- | --- | --- | --- |
-| 四国めたん | ずんだもん | 九州そら | |
-| 春日部つむぎ | 雨晴はう | 波音リツ | |
-| 黒野玄宏 | 白上虎太郎 | 青山龍星 | 冥鳴ひまり | 
+<table>
+<tr>
+<th style="text-align: center;" colspan="4">VOICEVOX</th>
+</tr>
+<tr>
+    <td>四国めたん</td>
+    <td>ずんだもん</td>
+    <td>九州そら</td>
+    <td></td>
+</tr>
+<tr>
+    <td>春日部つむぎ</td>
+    <td>雨晴はう</td>
+    <td>波音リツ</td>
+    <td></td>
+</tr>
+<tr>
+    <td>黒野玄宏</td>
+    <td>白上虎太郎</td>
+    <td>青山龍星</td>
+    <td>冥鳴ひまり</td>
+</tr>
+</table>
 
-|COEIROINK |||
-| --- | --- | --- |
-| つくよみちゃん | MANA | おふとんP |
-| ディアちゃん | アルマちゃん | |
+<table>
+    <tr>
+        <th style="text-align: center;" colspan="3">COEIROINK</th>
+    </tr>
+    <tr>
+        <td>つくよみちゃん</td>
+        <td>MANA</td>
+        <td>おふとんP</td>
+    </tr>
+    <tr>
+        <td>ディアちゃん</td>
+        <td>アルマちゃん</td>
+        <td></td>
+    </tr>
+</table>
 
-【スタイル一覧】
+### スタイル一覧
 
-| 四国めたん | ずんだもん | 九州そら | つくよみちゃん |
-| --- | --- | --- | --- | 
-|ノーマル|ノーマル|ノーマル|れいせい|
-|あまあま|あまあま|あまあま|おしとやか|
-|ツンツン|ツンツン|ツンツン|げんき|
-|セクシー|セクシー|セクシー||
-|||ささやき||
+<table>
+    <tr>
+        <th style="text-align: center;">話者名</th>
+        <th style="text-align: center;" colspan="5">スタイル</th>
+    </tr>
+    <tr>
+        <td>四国めたん</td>
+        <td>ノーマル</td>
+        <td>あまあま</td>
+        <td>ツンツン</td>
+        <td>セクシー</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ずんだもん</td>
+        <td>ノーマル</td>
+        <td>あまあま</td>
+        <td>ツンツン</td>
+        <td>セクシー</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>九州そら</td>
+        <td>ノーマル</td>
+        <td>あまあま</td>
+        <td>ツンツン</td>
+        <td>セクシー</td>
+        <td>ささやき</td>
+    </tr>
+    <tr>
+        <td>つくよみちゃん</td>
+        <td>おしとやか</td>
+        <td>れいせい</td>
+        <td>げんき</td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
 
 ### 使用方法
 

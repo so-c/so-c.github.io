@@ -29,7 +29,7 @@ twitter_username: SO_C
 github_username:  so-c
 
 # Build settings
-theme: minima
+theme: jekyll-theme-yat
 plugins:
  - jekyll-feed
 
