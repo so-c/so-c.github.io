@@ -29,7 +29,8 @@ twitter_username: SO_C
 github_username:  so-c
 
 # Build settings
-theme: jekyll-theme-yat
+# theme: jekyll-theme-yat
+remote_theme: "jeffreytse/jekyll-theme-yat"
 plugins:
  - jekyll-feed
 
