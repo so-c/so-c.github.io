@@ -45,6 +45,7 @@ layout: default
 
 ## まとめ系
 * [鬼っ子ハンターついなちゃんWiki](https://tsuinawiki.cyou/creater/%E9%8F%A1%E5%8F%8C%E5%8F%B8)：ついなちゃんワールドの作品はジャンル問わず
-* [togetter](https://togetter.com/id/SO_C)
+* [togetter](https://togetter.com/id/SO_C)：雑多なツイートまとめ
+* [min.t](https://min.togetter.com/id/SO_C)：音声合成公式アカウントのツイートまとめ
 * [twilog](https://twilog.org/SO_C)：自分のツイート検索用
 * [ランディングページ](https://so-c.github.io/)：ココ
