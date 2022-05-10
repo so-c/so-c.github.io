@@ -9,8 +9,10 @@ layout: default
 
 ## SNS
 
-* [Twitter](https://twitter.com/SO_C)：主な生息域
-* [Instagram](https://www.instagram.com/so_c.k/)：写真だけ
+<ul style="list-style: none;">
+  <li class="ti ti-brand-twitter" style="text-indent: -1.3em;"> <a href="https://twitter.com/SO_C">Twitter</a>：主な生息域</li>
+  <li class="ti ti-brand-instagram" style="text-indent: -1.3em;"> <a href="https://www.instagram.com/so_c.k/">Instagram</a>：写真だけ</li>
+</ul>
 
 ## イラスト
 
@@ -20,8 +22,10 @@ layout: default
 
 ## 動画
 
-* [ニコニコ動画](https://www.nicovideo.jp/user/13145014)：ゲーム実況、ソフトウェアトーク劇場、解説動画、DTMごっこ
-* [2分で教えてついなちゃん - YouTube](https://www.youtube.com/channel/UCASSVIUKXBTFcdeKm3r1QgA)：解説動画のみこちらにも
+<ul style="list-style: none;">
+  <li class="ti ti-device-tv" style="text-indent: -1.3em;"> <a href="https://www.nicovideo.jp/user/13145014">ニコニコ動画</a>：ゲーム実況、ソフトウェアトーク劇場、解説動画、DTMごっこ</li>
+  <li class="ti ti-brand-youtube" style="text-indent: -1.3em;"> <a href="https://www.youtube.com/channel/UCASSVIUKXBTFcdeKm3r1QgA">2分で教えてついなちゃん - YouTube</a>：解説動画のみこちらにも</li>
+</ul>
 
 ## 音楽
 
