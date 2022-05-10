@@ -19,11 +19,11 @@ layout: default
 
 1. [Releaseページ](https://github.com/so-c/soc-toolbox/releases)から`voicecox-caller-vX.Y.Z.a.zip`をダウンロードして好きなフォルダに展開する
 2. Recotte Studioの [環境設定 > ユーザー定義音声連携の設定] を開く
-<a href="../img/recosta_settings.png"><img src="../img/recosta_settings.png" alt="環境設定" style="margin: 0.5em 0; width: 480px"></a>
+<a href="../assets/images/recosta_settings.png"><img src="../assets/images/recosta_settings.png" alt="環境設定" style="margin: 0.5em 0; width: 480px"></a>
 3. インポートボタンを押し、インストールしたフォルダにある`VOICEVOX(PowerShell 5.x).rvls`を選ぶ
-<a href="../img/recosta_user_def.png"><img src="../img/recosta_user_def.png" alt="インポートボタン" style="margin: 0.5em 0; width: 480px"></a>
+<a href="../assets/images/recosta_user_def.png"><img src="../assets/images/recosta_user_def.png" alt="インポートボタン" style="margin: 0.5em 0; width: 480px"></a>
 4. [引数] 欄の`-File ""`のダブルクオーテーション内に、インストールしたフォルダにある`voicevox-caller.ps1`へのフルパスを書き足す
-<a href="../img/recosta_args.png"><img src="../img/recosta_args.png" alt="[引数]" style="margin: 0.5em 0; width: 480px"></a>
+<a href="../assets/images/recosta_args.png"><img src="../assets/images/recosta_args.png" alt="[引数]" style="margin: 0.5em 0; width: 480px"></a>
 ```text
 -ExecutionPolicy Bypass -File "C:\Users\YourName\Documents\voicevox-caller\voicevox-caller.ps1" -text "%c" -speaker "%s" -output "%o"
 ```
@@ -37,7 +37,7 @@ layout: default
    
 1. [音声連携] でインストールした"VOICEVOX(PoerShell 5.x)" を選ぶ
 1. [OK] ボタンを押す<br>
-<a href="../img/recosta_speaker_layer.png"><img src="../img/recosta_speaker_layer.png" alt="話者レイヤープロパティー" style="margin: 0.5em 0; width: 480px"></a>
+<a href="../assets/images/recosta_speaker_layer.png"><img src="../assets/images/recosta_speaker_layer.png" alt="話者レイヤープロパティー" style="margin: 0.5em 0; width: 480px"></a>
 
 ### 使用方法
 
