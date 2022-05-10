@@ -30,7 +30,8 @@ layout: default
 
 ## ソフトウェア
 
-* [GitHub](https://github.com/so-c)：動画編集支援スクリプト中心
+* [soc-toolbox](https://github.com/so-c/soc-toolbox)：動画編集支援スクリプト詰合せ
+  * [voicevox-caller](https://so-c.github.io/toolbox/voicevox-caller.html)：VOICEVOX, COEIROINKを実行するWindows PowerShellスクリプト
 
 ## Blog
 
