@@ -13,21 +13,34 @@ layout: default
 ```
 ※PowerShellの詳しい使い方についてはここでは説明しません
 
+**目次**
+* TOC
+{:toc}
+
 ## Recotte Studioの「ユーザー定義音声機能」での使い方
 
 ### インストール手順
 
 1. [Releaseページ](https://github.com/so-c/soc-toolbox/releases)から`voicecox-caller-vX.Y.Z.a.zip`をダウンロードして好きなフォルダに展開する
-2. Recotte Studioの [環境設定 > ユーザー定義音声連携の設定] を開く<br>
+1. インストールしたフォルダにある`create-rvls.bat`をダブルクリックし、設定ファイル`VOICEVOX(PowerShell 5.1).rvls`を作成する
+1. Recotte Studioの [環境設定 > ユーザー定義音声連携の設定] を開く<br>
 <a href="../assets/images/recosta_settings.png"><img src="../assets/images/recosta_settings.png" alt="環境設定" style="margin: 0.5em 0; width: 480px"></a>
-3. インポートボタンを押し、インストールしたフォルダにある`VOICEVOX(PowerShell 5.x).rvls`を選ぶ<br>
+1. インポートボタンを押し、作成した`VOICEVOX(PowerShell 5.1).rvls`を選ぶ<br>
 <a href="../assets/images/recosta_user_def.png"><img src="../assets/images/recosta_user_def.png" alt="インポートボタン" style="margin: 0.5em 0; width: 480px"></a>
-4. [引数] 欄の`-File ""`のダブルクオーテーション内に、インストールしたフォルダにある`voicevox-caller.ps1`へのフルパスを書き足す<br>
-<a href="../assets/images/recosta_args.png"><img src="../assets/images/recosta_args.png" alt="[引数]" style="margin: 0.5em 0; width: 480px"></a>
-```text
+1. [適用] ボタンを押す
+
+#### トラブルシュート
+
+`create-rvls.bat`を押しても設定ファイルが作成されない場合、テンプレートファイルをインポートして設定を書き足してください
+
+1. `template`フォルダ内の`VOICEVOX(PowerShell 5.1).rvls.org`の名前を`VOICEVOX(PowerShell 5.1).rvls`に変更する
+1. Recotte Studioにインポートする（方法は設定ファイルと同じ）
+1. [引数] 欄の-File ""のダブルクオーテーション内に、インストールしたフォルダにあるvoicevox-caller.ps1へのフルパスを書き足す<br>
+<a href="../assets/images/recosta_args.png"><img src="../assets/images/recosta_args.png" alt="インポートボタン" style="margin: 0.5em 0; width: 480px"></a>
+```ps1
+# [引数] 欄の例
 -ExecutionPolicy Bypass -File "C:\Users\YourName\Documents\voicevox-caller\voicevox-caller.ps1" -text "%c" -speaker "%s" -output "%o"
 ```
-5. [適用] ボタンを押す
 
 ### 使用準備
 
@@ -134,9 +147,9 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
 * 音声が作成されない場合は`voicevox-caler.ps1`と同じフォルダの`last_error.txt`を確認してみてください。最後に発生したエラーが出力されています
 * このスクリプトはWindowsに最初からインストールされてるWindows PowerShell ISEで変更・動作確認できます。好みに合わせてカスタマイズしてください
 
-### 利用できる引数
+#### 利用できる引数
 
-#### 必須引数
+##### 必須引数
 
 | 引数名 | 説明 |
 |:--|:--|
@@ -144,7 +157,7 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
 |text|喋らせたいテキスト|
 |out|出力ファイル名|
 
-#### オプション引数
+##### オプション引数
 
 | 引数名 | 説明 | デフォルト値 |
 |:--|:--|:--:|
