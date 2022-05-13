@@ -22,12 +22,11 @@ layout: default
 ### インストール手順
 
 1. [Releaseページ](https://github.com/so-c/soc-toolbox/releases)から`voicecox-caller-vX.Y.Z.a.zip`をダウンロードして好きなフォルダに展開する
-1. インストールしたフォルダにある`create-rvls.bat`をダブルクリックし、設定ファイル`VOICEVOX(PowerShell 5.1).rvls`を作成する
+1. インストールしたフォルダにある`create-rvls.bat`をダブルクリックし、設定ファイル`VOICEVOX(PowerShell 5.1).rvls`を作成する。「WindowsによってPCが保護されました」と警告が出た場合は[詳細] > [実行] と押してください
 1. Recotte Studioの [環境設定 > ユーザー定義音声連携の設定] を開く<br>
 <a href="../assets/images/recosta_settings.png"><img src="../assets/images/recosta_settings.png" alt="環境設定" style="margin: 0.5em 0; width: 480px"></a>
 1. インポートボタンを押し、作成した`VOICEVOX(PowerShell 5.1).rvls`を選ぶ<br>
 <a href="../assets/images/recosta_user_def.png"><img src="../assets/images/recosta_user_def.png" alt="インポートボタン" style="margin: 0.5em 0; width: 480px"></a>
-1. [適用] ボタンを押す
 
 #### トラブルシュート
 
@@ -48,7 +47,7 @@ layout: default
 1. [話者名] (≠名前) をキャラクター名で始まるように設定する
    * スタイルがあるキャラクタは「四国めたん(ツンツン)」のように指定できます
    
-1. [音声連携] でインストールした"VOICEVOX(PoerShell 5.x)" を選ぶ
+1. [音声連携] でインストールした"VOICEVOX(PoerShell 5.1)" を選ぶ
 1. [OK] ボタンを押す<br>
 <a href="../assets/images/recosta_speaker_layer.png"><img src="../assets/images/recosta_speaker_layer.png" alt="話者レイヤープロパティー" style="margin: 0.5em 0; width: 480px"></a>
 
@@ -168,7 +167,7 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
 |prePhonemeLength|開始無音|0.1|
 |postPhonemeLength|終了無音|0.1|
 |outputSamplingRate|音声のサンプリングレート|48000 (48kHz)|
-|$outputStereo|音声をステレオ化|false|
+|outputStereo|音声をステレオ化|false|
 
 ### 利用規約
 
