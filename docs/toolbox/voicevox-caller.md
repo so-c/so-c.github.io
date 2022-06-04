@@ -74,7 +74,7 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
     <td></td>
 </tr>
 <tr>
-    <td>黒野玄宏</td>
+    <td>玄野武宏</td>
     <td>白上虎太郎</td>
     <td>青山龍星</td>
     <td>冥鳴ひまり</td>
@@ -131,6 +131,22 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>おしとやか</td>
         <td>れいせい</td>
         <td>げんき</td>
+        <td></td>
+        <td></td>
+    </tr>
+        <tr>
+        <td>MANA</td>
+        <td>のーまる</td>
+        <td>いっしょうけんめい</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+        <tr>
+        <td>おふとんP</td>
+        <td>のーまる</td>
+        <td>ナレーション</td>
+        <td></td>
         <td></td>
         <td></td>
     </tr>
