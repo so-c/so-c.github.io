@@ -79,6 +79,12 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
     <td>青山龍星</td>
     <td>冥鳴ひまり</td>
 </tr>
+<tr>
+    <td>モチノ・キョウコ</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
 </table>
 
 <table>
