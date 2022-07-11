@@ -81,7 +81,7 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
 </tr>
 <tr>
     <td>モチノ・キョウコ</td>
-    <td></td>
+    <td>剣崎雌雄</td>
     <td></td>
     <td></td>
 </tr>
