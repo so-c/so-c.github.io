@@ -35,7 +35,7 @@ layout: default
 ## ソフトウェア
 
 * [soc-toolbox](https://github.com/so-c/soc-toolbox)：動画編集支援スクリプト詰合せ
-  * [voicevox-caller](./toolbox/voicevox-caller.html)：VOICEVOX, COEIROINKを実行するWindows PowerShellスクリプト
+  * [voivoca](./toolbox/voivoca.html)：VOICEVOX, COEIROINKを実行するWindows PowerShellスクリプト
 * Synthesizer V Studio Pro用スクリプト
   * [トラック色を変更するスクリプト](https://gist.github.com/so-c/d2ce848b3b209c9b496effacfaf37246)
   * [中国語/英語ライブラリにひらがなを発音してもらうスクリプト](https://gist.github.com/so-c/3f92609556d7d5aa443bbb1e3b3c66d1)

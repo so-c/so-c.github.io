@@ -2,14 +2,14 @@
 layout: default
 ---
 
-# voicevox-caller
+# voivoca
 
 [VOICEVOX](https://voicevox.hiroshiba.jp/), [COEIROINK](https://coeiroink.com/)の音声合成エンジンを呼ぶためのWindows PowerShellスクリプトです。[Recotte Studioの「ユーザー定義音声機能」](https://youtu.be/dB5rDhiPMmQ)に使用できます
 
 ## 使用例
 
 ```ps1
-> .\voicevox-caller.ps1 -speaker "四国めたん(ツンツン)" -text "わたくしは漆黒のめたんですわ" -output shikkoku.wav
+> .\voivoca.ps1 -speaker "四国めたん(ツンツン)" -text "わたくしは漆黒のめたんですわ" -output shikkoku.wav
 ```
 ※PowerShellの詳しい使い方についてはここでは説明しません
 
@@ -21,7 +21,7 @@ layout: default
 
 ### インストール手順
 
-1. [Releaseページ](https://github.com/so-c/soc-toolbox/releases)から`voicecox-caller-vX.Y.Z.a.zip`をダウンロードして好きなフォルダに展開する
+1. [Releaseページ](https://github.com/so-c/soc-toolbox/releases)から`voivoca-vX.Y.Z.zip`をダウンロードして好きなフォルダに展開する
 1. インストールしたフォルダにある`create-rvls.bat`をダブルクリックし、設定ファイル`VOICEVOX(PowerShell 5.1).rvls`を作成する。「WindowsによってPCが保護されました」と警告が出た場合は[詳細] > [実行] と押してください
 1. Recotte Studioの [環境設定 > ユーザー定義音声連携の設定] を開く<br>
 <a href="../assets/images/recosta_settings.png"><img src="../assets/images/recosta_settings.png" alt="環境設定" style="margin: 0.5em 0; width: 480px"></a>
@@ -34,11 +34,11 @@ layout: default
 
 1. `template`フォルダ内の`VOICEVOX(PowerShell 5.1).rvls.org`の名前を`VOICEVOX(PowerShell 5.1).rvls`に変更する
 1. Recotte Studioにインポートする（方法は設定ファイルと同じ）
-1. [引数] 欄の-File ""のダブルクオーテーション内に、インストールしたフォルダにあるvoicevox-caller.ps1へのフルパスを書き足す<br>
+1. [引数] 欄の-File ""のダブルクオーテーション内に、インストールしたフォルダにあるvoivoca.ps1へのフルパスを書き足す<br>
 <a href="../assets/images/recosta_args.png"><img src="../assets/images/recosta_args.png" alt="インポートボタン" style="margin: 0.5em 0; width: 480px"></a>
 ```ps1
 # [引数] 欄の例
--ExecutionPolicy Bypass -File "C:\Users\YourName\Documents\voicevox-caller\voicevox-caller.ps1" -text "%c" -speaker "%s" -output "%o"
+-ExecutionPolicy Bypass -File "C:\Users\YourName\Documents\voivoca\voivoca.ps1" -text "%c" -speaker "%s" -output "%o"
 ```
 
 ### 使用準備
@@ -165,7 +165,7 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
 
 ### TIPS
 
-* 音声が作成されない場合は`voicevox-caler.ps1`と同じフォルダの`last_error.txt`を確認してみてください。最後に発生したエラーが出力されています
+* 音声が作成されない場合は`voivoca.ps1`と同じフォルダの`last_error.txt`を確認してみてください。最後に発生したエラーが出力されています
 * このスクリプトはWindowsに最初からインストールされてるWindows PowerShell ISEで変更・動作確認できます。好みに合わせてカスタマイズしてください
 
 #### 利用できる引数
@@ -196,6 +196,6 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
 * ユーザ向け
   * 本スクリプトはインターネット全般で非商用・商用問わず利用できます
   * Recotte StudioやVOICEVOX、各キャラクターの利用規約に従ってください
-  * ニコニコ動画で使う際はニコニ･コモンズの [voicevox\-caller](https://commons.nicovideo.jp/material/nc252957) のコンテンツツリー登録にご協力ください
+  * ニコニコ動画で使う際はニコニ･コモンズの [voivoca](https://commons.nicovideo.jp/material/nc252957) のコンテンツツリー登録にご協力ください
 * 開発者向け
   * スクリプト本体は[MIT License](https://github.com/so-c/soc-toolbox/blob/main/LICENSE)です
