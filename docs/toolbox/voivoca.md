@@ -152,7 +152,7 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>おふとんP</td>
         <td>のーまる</td>
         <td>ナレーション</td>
-        <td></td>
+        <td>かなしみ</td>
         <td></td>
         <td></td>
     </tr>
