@@ -122,7 +122,7 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>あまあま</td>
         <td>ツンツン</td>
         <td>セクシー</td>
-        <td></td>
+        <td>ささやき</td>
     </tr>
     <tr>
         <td>九州そら</td>
