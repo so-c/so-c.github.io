@@ -93,8 +93,13 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
     </tr>
     <tr>
         <td>つくよみちゃん</td>
-        <td>MANA</td>
         <td>おふとんP</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>MANA</td>
+        <td>MANA+</td>
+        <td>KANA</td>
     </tr>
     <tr>
         <td>ディアちゃん</td>
@@ -106,7 +111,7 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
 <table>
     <tr>
         <th style="text-align: center;">話者名</th>
-        <th style="text-align: center;" colspan="5">スタイル</th>
+        <th style="text-align: center;" colspan="6">スタイル</th>
     </tr>
     <tr>
         <td>四国めたん</td>
@@ -114,6 +119,7 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>あまあま</td>
         <td>ツンツン</td>
         <td>セクシー</td>
+        <td></td>
         <td></td>
     </tr>
     <tr>
@@ -123,6 +129,7 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>ツンツン</td>
         <td>セクシー</td>
         <td>ささやき</td>
+        <td></td>
     </tr>
     <tr>
         <td>九州そら</td>
@@ -131,6 +138,7 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>ツンツン</td>
         <td>セクシー</td>
         <td>ささやき</td>
+        <td></td>
     </tr>
     <tr>
         <td>つくよみちゃん</td>
@@ -139,20 +147,41 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>げんき</td>
         <td></td>
         <td></td>
+        <td></td>
     </tr>
-        <tr>
+    <tr>
         <td>MANA</td>
         <td>のーまる</td>
         <td>いっしょうけんめい</td>
+        <td>ごきげん</td>
         <td></td>
         <td></td>
         <td></td>
     </tr>
-        <tr>
-        <td>おふとんP</td>
+    <tr>
+        <td>KANA</td>
         <td>のーまる</td>
-        <td>ナレーション</td>
+        <td>えんげき</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>おふとんP</td>
+        <td>のーまるv2</td>
+        <td>よろこび</td>
         <td>かなしみ</td>
+        <td>あせり</td>
+        <td>ささやき</td>
+        <td>ナレーション</td>
+    </tr>
+    <tr>
+        <td>アルマちゃん</td>
+        <td>表-v1</td>
+        <td>表-v2</td>
+        <td>裏</td>
+        <td></td>
         <td></td>
         <td></td>
     </tr>
