@@ -85,6 +85,12 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
     <td></td>
     <td></td>
 </tr>
+<tr>
+    <td>WhiteCUL</td>
+    <td>後鬼</td>
+    <td>No.7</td>
+    <td></td>
+</tr>
 </table>
 
 <table>
@@ -138,6 +144,42 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>ツンツン</td>
         <td>セクシー</td>
         <td>ささやき</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>白上虎太郎</td>
+        <td>ふつう</td>
+        <td>わーい</td>
+        <td>おこ</td>
+        <td>びくびく</td>
+        <td>びえーん</td>
+        <td></td>
+    </tr>
+        <tr>
+        <td>WhiteCUL</td>
+        <td>ノーマル</td>
+        <td>たのしい</td>
+        <td>かなしい</td>
+        <td>びえーん</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>後鬼</td>
+        <td>人間ver.</td>
+        <td>ぬいぐるみver.</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>No.7</td>
+        <td>ノーマル</td>
+        <td>アナウンス</td>
+        <td>読み聞かせ</td>
+        <td></td>
+        <td></td>
         <td></td>
     </tr>
     <tr>
