@@ -112,6 +112,11 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>アルマちゃん</td>
         <td></td>
     </tr>
+    <tr>
+        <td>AI声優-朱花</td>
+        <td>AI声優-青葉</td>
+        <td>AI声優-銀芽</td>
+    </tr>
 </table>
 
 <table>
@@ -196,6 +201,15 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>のーまる</td>
         <td>いっしょうけんめい</td>
         <td>ごきげん</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>MANA+</td>
+        <td>ふくれっつら</td>
+        <td>しょんぼり</td>
+        <td></td>
         <td></td>
         <td></td>
         <td></td>
