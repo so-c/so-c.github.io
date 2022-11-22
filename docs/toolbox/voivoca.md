@@ -11,9 +11,11 @@ layout: default
 ```ps1
 > .\voivoca.ps1 -speaker "四国めたん(ツンツン)" -text "わたくしは漆黒のめたんですわ" -output shikkoku.wav
 ```
+
 ※PowerShellの詳しい使い方についてはここでは説明しません
 
 **目次**
+
 * TOC
 {:toc}
 
@@ -36,6 +38,7 @@ layout: default
 1. Recotte Studioにインポートする（方法は設定ファイルと同じ）
 1. [引数] 欄の-File ""のダブルクオーテーション内に、インストールしたフォルダにあるvoivoca.ps1へのフルパスを書き足す<br>
 <a href="../assets/images/recosta_args.png"><img src="../assets/images/recosta_args.png" alt="インポートボタン" style="margin: 0.5em 0; width: 480px"></a>
+
 ```ps1
 # [引数] 欄の例
 -ExecutionPolicy Bypass -File "C:\Users\YourName\Documents\voivoca\voivoca.ps1" -text "%c" -speaker "%s" -output "%o"
@@ -46,7 +49,7 @@ layout: default
 1. 話者レイヤーを追加してプロパティーを開く
 1. [話者名] (≠名前) をキャラクター名で始まるように設定する
    * スタイルがあるキャラクタは「四国めたん(ツンツン)」のように指定できます
-   
+
 1. [音声連携] でインストールした"VOICEVOX(PoerShell 5.1)" を選ぶ
 1. [OK] ボタンを押す<br>
 <a href="../assets/images/recosta_speaker_layer.png"><img src="../assets/images/recosta_speaker_layer.png" alt="話者レイヤープロパティー" style="margin: 0.5em 0; width: 480px"></a>
@@ -99,8 +102,13 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
     </tr>
     <tr>
         <td>つくよみちゃん</td>
-        <td>おふとんP</td>
         <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>おふとんP</td>
+        <td>おふとんP+</td>
+        <td>おふとんP++</td>
     </tr>
     <tr>
         <td>MANA</td>
@@ -131,7 +139,6 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>ツンツン</td>
         <td>セクシー</td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ずんだもん</td>
@@ -140,7 +147,6 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>ツンツン</td>
         <td>セクシー</td>
         <td>ささやき</td>
-        <td></td>
     </tr>
     <tr>
         <td>九州そら</td>
@@ -149,7 +155,6 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>ツンツン</td>
         <td>セクシー</td>
         <td>ささやき</td>
-        <td></td>
     </tr>
     <tr>
         <td>白上虎太郎</td>
@@ -158,7 +163,6 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>おこ</td>
         <td>びくびく</td>
         <td>びえーん</td>
-        <td></td>
     </tr>
         <tr>
         <td>WhiteCUL</td>
@@ -167,13 +171,11 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>かなしい</td>
         <td>びえーん</td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>後鬼</td>
         <td>人間ver.</td>
         <td>ぬいぐるみver.</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -185,14 +187,12 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>読み聞かせ</td>
         <td></td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>つくよみちゃん</td>
         <td>おしとやか</td>
         <td>れいせい</td>
         <td>げんき</td>
-        <td></td>
         <td></td>
         <td></td>
     </tr>
@@ -203,14 +203,12 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>ごきげん</td>
         <td></td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>MANA+</td>
         <td>ふくれっつら</td>
         <td>しょんぼり</td>
-        <td></td>
-        <td></td>
+        <td>ないしょばなし</td>
         <td></td>
         <td></td>
     </tr>
@@ -221,7 +219,6 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>おふとんP</td>
@@ -229,8 +226,23 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>よろこび</td>
         <td>かなしみ</td>
         <td>あせり</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>おふとんP+</td>
         <td>ささやき</td>
         <td>ナレーション</td>
+        <td>きざ</td>
+        <td>きざささやき</td>
+        <td></td>
+    </tr>
+        <tr>
+        <td>おふとんP++</td>
+        <td>はくしん</td>
+        <td>いらだち</td>
+        <td>よわり</td>
+        <td>めんよう</td>
+        <td></td>
     </tr>
     <tr>
         <td>アルマちゃん</td>
@@ -239,11 +251,11 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>裏</td>
         <td></td>
         <td></td>
-        <td></td>
     </tr>
 </table>
 
 ### 参考動画
+
 <script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm39404090/script?w=720&h=480"></script><noscript><a href="https://www.nicovideo.jp/watch/sm39404090">【2分で教えてついなちゃん♡】レコスタのユーザ定義音声連携でA.I.VOICEやVOICEVOX【Recotte Studio】</a></noscript>
 
 [YouTubeはこちら](https://www.youtube.com/watch?v=N_VCF2ABKA8)
