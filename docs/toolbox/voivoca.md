@@ -94,6 +94,12 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
     <td>No.7</td>
     <td></td>
 </tr>
+<tr>
+    <td>ちび式じい</td>
+    <td>櫻歌ミコ</td>
+    <td>小夜/SAYO</td>
+    <td>ナースロボ_タイプT</td>
+</tr>
 </table>
 
 <table>
@@ -157,6 +163,14 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>ささやき</td>
     </tr>
     <tr>
+        <td>玄野武宏</td>
+        <td>ノーマル</td>
+        <td>喜び</td>
+        <td>ツンギレ</td>
+        <td>悲しみ</td>
+        <td></td>
+    </tr>
+    <tr>
         <td>白上虎太郎</td>
         <td>ふつう</td>
         <td>わーい</td>
@@ -164,7 +178,7 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>びくびく</td>
         <td>びえーん</td>
     </tr>
-        <tr>
+    <tr>
         <td>WhiteCUL</td>
         <td>ノーマル</td>
         <td>たのしい</td>
@@ -186,6 +200,22 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>アナウンス</td>
         <td>読み聞かせ</td>
         <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>櫻歌ミコ</td>
+        <td>ノーマル</td>
+        <td>第二形態</td>
+        <td>ロリ</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ナースロボ_タイプT</td>
+        <td>ノーマル</td>
+        <td>楽々</td>
+        <td>恐怖</td>
+        <td>内緒話</td>
         <td></td>
     </tr>
     <tr>
@@ -236,7 +266,7 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>きざささやき</td>
         <td></td>
     </tr>
-        <tr>
+    <tr>
         <td>おふとんP++</td>
         <td>はくしん</td>
         <td>いらだち</td>
@@ -253,6 +283,7 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td></td>
     </tr>
 </table>
+
 
 ### 参考動画
 
