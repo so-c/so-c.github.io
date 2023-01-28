@@ -60,9 +60,11 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
 
 ### 話者・スタイル一覧
 
+#### VOICEVOX
+
 <table>
 <tr>
-<th style="text-align: center;" colspan="4">VOICEVOX</th>
+    <th style="text-align: center;" colspan="4">VOICEVOX</th>
 </tr>
 <tr>
     <td>四国めたん</td>
@@ -104,39 +106,8 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
 
 <table>
     <tr>
-        <th style="text-align: center;" colspan="3">COEIROINK</th>
-    </tr>
-    <tr>
-        <td>つくよみちゃん</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>おふとんP</td>
-        <td>おふとんP+</td>
-        <td>おふとんP++</td>
-    </tr>
-    <tr>
-        <td>MANA</td>
-        <td>MANA+</td>
-        <td>KANA</td>
-    </tr>
-    <tr>
-        <td>ディアちゃん</td>
-        <td>アルマちゃん</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>AI声優-朱花</td>
-        <td>AI声優-青葉</td>
-        <td>AI声優-銀芽</td>
-    </tr>
-</table>
-
-<table>
-    <tr>
         <th style="text-align: center;">話者名</th>
-        <th style="text-align: center;" colspan="6">スタイル</th>
+        <th style="text-align: center;" colspan="5">スタイル</th>
     </tr>
     <tr>
         <td>四国めたん</td>
@@ -218,12 +189,57 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>内緒話</td>
         <td></td>
     </tr>
+</table>
+
+#### COEIROINK
+
+
+<table>
+    <tr>
+        <th style="text-align: center;" colspan="4">COEIROINK</th>
+    </tr>
+    <tr>
+        <td>つくよみちゃん</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>おふとんP</td>
+        <td>おふとんP+</td>
+        <td>おふとんP++</td>
+        <td>おふとんP+++</td>
+    </tr>
+    <tr>
+        <td>MANA</td>
+        <td>MANA+</td>
+        <td>KANA</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ディアちゃん</td>
+        <td>アルマちゃん</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>AI声優-朱花</td>
+        <td>AI声優-青葉</td>
+        <td>AI声優-銀芽</td>
+        <td></td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th style="text-align: center;">話者名</th>
+        <th style="text-align: center;" colspan="4">スタイル</th>
+    </tr>
     <tr>
         <td>つくよみちゃん</td>
         <td>おしとやか</td>
         <td>れいせい</td>
         <td>げんき</td>
-        <td></td>
         <td></td>
     </tr>
     <tr>
@@ -232,21 +248,18 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>いっしょうけんめい</td>
         <td>ごきげん</td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>MANA+</td>
         <td>ふくれっつら</td>
         <td>しょんぼり</td>
         <td>ないしょばなし</td>
-        <td></td>
-        <td></td>
+        <td>ひっさつわざ</td>
     </tr>
     <tr>
         <td>KANA</td>
         <td>のーまる</td>
         <td>えんげき</td>
-        <td></td>
         <td></td>
         <td></td>
     </tr>
@@ -256,7 +269,6 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>よろこび</td>
         <td>かなしみ</td>
         <td>あせり</td>
-        <td></td>
     </tr>
     <tr>
         <td>おふとんP+</td>
@@ -264,7 +276,6 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>ナレーション</td>
         <td>きざ</td>
         <td>きざささやき</td>
-        <td></td>
     </tr>
     <tr>
         <td>おふとんP++</td>
@@ -272,13 +283,25 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>いらだち</td>
         <td>よわり</td>
         <td>めんよう</td>
-        <td></td>
+    </tr>
+    <tr>
+        <td>おふとんP+++</td>
+        <td>どくはく</td>
+        <td>ホラー</td>
+        <td>おちつき</td>
+        <td>無声ささやき</td>
     </tr>
     <tr>
         <td>アルマちゃん</td>
         <td>表-v1</td>
         <td>表-v2</td>
         <td>裏</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>AI声優 - 銀芽</td>
+        <td>のーまる</td>
+        <td>感情的</td>
         <td></td>
         <td></td>
     </tr>
