@@ -107,7 +107,7 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
 <table>
     <tr>
         <th style="text-align: center;">話者名</th>
-        <th style="text-align: center;" colspan="5">スタイル</th>
+        <th style="text-align: center;" colspan="6">スタイル</th>
     </tr>
     <tr>
         <td>四国めたん</td>
@@ -115,7 +115,8 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>あまあま</td>
         <td>ツンツン</td>
         <td>セクシー</td>
-        <td></td>
+        <td>ささやき</td>
+        <td>ヒソヒソ</td>
     </tr>
     <tr>
         <td>ずんだもん</td>
@@ -124,6 +125,7 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>ツンツン</td>
         <td>セクシー</td>
         <td>ささやき</td>
+        <td>ヒソヒソ</td>
     </tr>
     <tr>
         <td>九州そら</td>
@@ -132,6 +134,7 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>ツンツン</td>
         <td>セクシー</td>
         <td>ささやき</td>
+        <td></td>
     </tr>
     <tr>
         <td>玄野武宏</td>
@@ -139,6 +142,7 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>喜び</td>
         <td>ツンギレ</td>
         <td>悲しみ</td>
+        <td></td>
         <td></td>
     </tr>
     <tr>
@@ -148,6 +152,7 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>おこ</td>
         <td>びくびく</td>
         <td>びえーん</td>
+        <td></td>
     </tr>
     <tr>
         <td>WhiteCUL</td>
@@ -156,11 +161,13 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>かなしい</td>
         <td>びえーん</td>
         <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>後鬼</td>
         <td>人間ver.</td>
         <td>ぬいぐるみver.</td>
+        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -172,12 +179,14 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>読み聞かせ</td>
         <td></td>
         <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>櫻歌ミコ</td>
         <td>ノーマル</td>
         <td>第二形態</td>
         <td>ロリ</td>
+        <td></td>
         <td></td>
         <td></td>
     </tr>
@@ -187,6 +196,7 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>楽々</td>
         <td>恐怖</td>
         <td>内緒話</td>
+        <td></td>
         <td></td>
     </tr>
 </table>
