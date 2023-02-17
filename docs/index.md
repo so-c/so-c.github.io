@@ -8,8 +8,8 @@ layout: default
 
 ## SNS
 
-* [Twitter](https://twitter.com/SO_C)Twitter：主な生息域
-* [Instagram](https://www.instagram.com/so_c.k/)Instagram：写真だけ<
+* [Twitter](https://twitter.com/SO_C)：主な生息域
+* [Instagram](https://www.instagram.com/so_c.k/)：写真だけ<
 
 ## イラスト
 
