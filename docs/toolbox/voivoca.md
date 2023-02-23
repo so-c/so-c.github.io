@@ -102,6 +102,12 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
     <td>小夜/SAYO</td>
     <td>ナースロボ_タイプT</td>
 </tr>
+<tr>
+    <td>†聖騎士 紅桜†</td>
+    <td>雀松朱司</td>
+    <td>麒ヶ島宗麟</td>
+    <td></td>
+</tr>
 </table>
 
 <table>
