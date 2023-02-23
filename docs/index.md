@@ -37,7 +37,8 @@ layout: default
 
 ## Blog
 
-* [mirror house annex](https://mirahalibrary.blogspot.com/)：雑多
+* [note \| so-c](https://note.com/so_c)：雑多
+* [mirror house annex](https://mirahalibrary.blogspot.com/)：本やCD、映画の感想が主
 * [mirror house lab](https://mirahalab.blogspot.com/)：技術
 
 ## その他
