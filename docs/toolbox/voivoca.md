@@ -235,7 +235,7 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
     <tr>
         <td>ディアちゃん</td>
         <td>アルマちゃん</td>
-        <td></td>
+        <td>リリンちゃん</td>
         <td></td>
     </tr>
     <tr>
@@ -312,6 +312,13 @@ VOICEVOX, COEIROINKを起動した状態で [音声の同期] をしてくださ
         <td>表-v1</td>
         <td>表-v2</td>
         <td>裏</td>
+        <td></td>
+    </tr>
+        <tr>
+        <td>リリンちゃん</td>
+        <td>のーまる</td>
+        <td>ささやき</td>
+        <td></td>
         <td></td>
     </tr>
     <tr>
