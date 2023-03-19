@@ -1,9 +1,5 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+# Landing Page
 
-layout: default
----
 鏡双司（カガミソーシ） [@SO_C](https://twitter.com/SO_C) のリンクまとめ
 
 ## SNS
