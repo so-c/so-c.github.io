@@ -17,6 +17,7 @@
     "eslint-config-next": "13.2.4",
     "eslint-plugin-mdx": "^2.0.5",
     "next": "13.2.4",
+    "next-seo": "^5.15.0",
     "nextra": "^2.2.19",
     "nextra-theme-docs": "^2.2.19",
     "react": "18.2.0",

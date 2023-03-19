@@ -13,19 +13,28 @@ const themeConfig = {
       />
     ),
   },
+
   feedback: {
     content: () => {
       return null;
     },
   },
+
   editLink: {
     component: () => {
       return <></>;
     },
   },
+
   footer: {
     text: <span>{new Date().getFullYear()} © Soshi Kagami</span>,
   },
+
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – Mirror House Annex'
+    }
+  }
 };
 
 export default themeConfig;
