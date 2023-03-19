@@ -1,3 +1,7 @@
+import Image from "next/image";
+import Link from "next/link";
+import Script from "next/script";
+
 # voivoca
 
 [VOICEVOX](https://voicevox.hiroshiba.jp/), [COEIROINK](https://coeiroink.com/)の音声合成エンジンを呼ぶための Windows PowerShell スクリプトです。[Recotte Studio の「ユーザー定義音声機能」](https://youtu.be/dB5rDhiPMmQ)に使用できます
@@ -8,37 +12,32 @@
 > .\voivoca.ps1 -speaker "四国めたん(ツンツン)" -text "わたくしは漆黒のめたんですわ" -output shikkoku.wav
 ```
 
-※PowerShell の詳しい使い方についてはここでは説明しません
-
-**目次**
+※Windows PowerShell の詳しい使い方についてはここでは説明しません。
 
 ## Recotte Studio の「ユーザー定義音声機能」での使い方
 
 ### インストール手順
 
-import Image from "next/image";
-import Link from "next/link";
-
 1. [Release ページ](https://github.com/so-c/soc-toolbox/releases)から`voivoca-vX.Y.Z.zip`をダウンロードして好きなフォルダに展開する
 1. インストールしたフォルダにある`create-rvls.bat`をダブルクリックし、設定ファイル`VOICEVOX(PowerShell 5.1).rvls`を作成する。「Windows によって PC が保護されました」と警告が出た場合は[詳細] > [実行] と押してください
 1. Recotte Studio の [環境設定 > ユーザー定義音声連携の設定] を開く<br />
-   <a href="../assets/images/recosta_settings.png">
+   <Link href="../assets/images/recosta_settings.png">
      <Image
        src="/images/recosta_settings.png"
        alt="環境設定"
        width={480}
        height={320}
      />
-   </a>
+   </Link>
 1. インポートボタンを押し、作成した`VOICEVOX(PowerShell 5.1).rvls`を選ぶ<br />
-   <a href="../assets/images/recosta_user_def.png">
+   <Link href="../assets/images/recosta_user_def.png">
      <Image
        src="/images/recosta_user_def.png"
        alt="インポートボタン"
        width={480}
        height={320}
      />
-   </a>
+   </Link>
 
 #### トラブルシュート
 
@@ -47,14 +46,14 @@ import Link from "next/link";
 1. `template`フォルダ内の`VOICEVOX(PowerShell 5.1).rvls.org`の名前を`VOICEVOX(PowerShell 5.1).rvls`に変更する
 1. Recotte Studio にインポートする（方法は設定ファイルと同じ）
 1. [引数] 欄の-File ""のダブルクオーテーション内に、インストールしたフォルダにある voivoca.ps1 へのフルパスを書き足す<br />
-   <a href="../assets/images/recosta_args.png">
+   <Link href="../assets/images/recosta_args.png">
      <Image
        src="/images/recosta_args.png"
        alt="インポートボタン"
        width={480}
        height={320}
      />
-   </a>
+   </Link>
 
 ```ps1
 # [引数] 欄の例
@@ -70,14 +69,14 @@ import Link from "next/link";
 
 1. [音声連携] でインストールした"VOICEVOX(PoerShell 5.1)" を選ぶ
 1. [OK] ボタンを押す<br />
-   <a href="../assets/images/recosta_speaker_layer.png">
+   <Link href="../assets/images/recosta_speaker_layer.png">
      <Image
        src="/images/recosta_speaker_layer.png"
        alt="話者レイヤープロパティー"
        width={480}
        height={320}
      />
-   </a>
+   </Link>
 
 ### 使用方法
 
@@ -88,9 +87,10 @@ VOICEVOX, COEIROINK を起動した状態で [音声の同期] をしてくだ�
 #### VOICEVOX
 
 {<table>
+
   <thead>
     <tr>
-      <th colspan="4">VOICEVOX</th>
+      <th colSpan="4">VOICEVOX</th>
     </tr>
   </thead>
   <tbody>
@@ -140,10 +140,11 @@ VOICEVOX, COEIROINK を起動した状態で [音声の同期] をしてくだ�
 </table>}
 
 {<table>
+
   <thead>
     <tr>
       <th>話者名</th>
-      <th colspan="6">スタイル</th>
+      <th colSpan="6">スタイル</th>
     </tr>
   </thead>
   <tbody>
@@ -243,9 +244,11 @@ VOICEVOX, COEIROINK を起動した状態で [音声の同期] をしてくだ�
 #### COEIROINK
 
 {<table>
-    <thead>
+
+<thead>
+
   <tr>
-    <th colspan="4">COEIROINK</th>
+    <th colSpan="4">COEIROINK</th>
   </tr>
   </thead>
   <tbody>
@@ -283,10 +286,11 @@ VOICEVOX, COEIROINK を起動した状態で [音声の同期] をしてくだ�
 </table>}
 
 {<table>
+
   <thead>
     <tr>
       <th>話者名</th>
-      <th colspan="4">スタイル</th>
+      <th colSpan="4">スタイル</th>
     </tr>
   </thead>
   <tbody>
@@ -372,19 +376,9 @@ VOICEVOX, COEIROINK を起動した状態で [音声の同期] をしてくだ�
 
 ### 参考動画
 
-<script
-  type="application/javascript"
-  src="https://embed.nicovideo.jp/watch/sm39404090/script?w=720&h=480"
-></script>
 
-<noscript>
-  <a href="https://www.nicovideo.jp/watch/sm39404090">
-    【2分で教えてついなちゃん♡】レコスタのユーザ定義音声連携でA.I.VOICEやVOICEVOX【Recotte
-    Studio】
-  </a>
-</noscript>
-
-[YouTube はこちら](https://www.youtube.com/watch?v=N_VCF2ABKA8)
+- [【2分で教えてついなちゃん♡】レコスタのユーザ定義音声連携でA.I.VOICEやVOICEVOX【Recotte Studio】](https://www.nicovideo.jp/watch/sm39404090)
+- [YouTube版](https://www.youtube.com/watch?v=N_VCF2ABKA8)
 
 ### TIPS
 
@@ -414,7 +408,7 @@ VOICEVOX, COEIROINK を起動した状態で [音声の同期] をしてくだ�
 | outputSamplingRate | 音声のサンプリングレート | 48000 (48kHz) |
 | outputStereo       | 音声をステレオ化         |     false     |
 
-### 利用規約
+## 利用規約
 
 - ユーザ向け
   - 本スクリプトはインターネット全般で非商用・商用問わず利用できます
