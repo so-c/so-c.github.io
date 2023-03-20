@@ -32,7 +32,7 @@ const themeConfig = {
 
   useNextSeoProps() {
     return {
-      titleTemplate: '%s – Mirror House Annex'
+      titleTemplate: '%s – Mirror House Entrance'
     }
   }
 };
