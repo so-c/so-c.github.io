@@ -32,7 +32,19 @@ const themeConfig = {
 
   useNextSeoProps() {
     return {
-      titleTemplate: '%s – Mirror House Entrance'
+      titleTemplate: '%s – Mirror House Entrance',
+      openGraph: {
+        type: 'website',
+        locale: 'ja_JP',
+        url: 'https://so-c.github.io/',
+        siteName: 'Mirror House Entrance',
+        description: '鏡双司 @SO_C のランディングページ'
+      },
+      twitter: {
+        handle: '@SO_C',
+        site: '@SO_C',
+        cardType: 'summary',
+      },
     }
   }
 };
