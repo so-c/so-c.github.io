@@ -6,7 +6,9 @@ const themeConfig = {
   logo: <span>Mirror House Entrance</span>,
 
   head: () => {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const { asPath, defaultLocale, locale } = useRouter();
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const { frontMatter } = useConfig();
     const url = 
       'https://so-c.github.io' +
@@ -51,12 +53,11 @@ const themeConfig = {
   useNextSeoProps() {
     return {
       titleTemplate: '%s – Mirror House Entrance',
-      description: '鏡双司 @SO_C のランディングページ',
       twitter: {
         handle: '@SO_C',
-        site: '@SO_C',
-        cardType: 'summary',
-      },
+          site: '@SO_C',
+        cardType: 'summary'
+      }
     }
   }
 };
