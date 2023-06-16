@@ -1,15 +1,23 @@
 ---
-title: voivoca
+title: voivoca/coeica
 description: voivoca（VOICEVOX, COEIROINKの音声合成エンジンAPIを呼ぶためのWindows Powershellスクリプト
 ---
 
 import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
+import { Callout } from 'nextra-theme-docs'
 
-# voivoca
+# voivoca/coeica
 
 [VOICEVOX](https://voicevox.hiroshiba.jp/), [COEIROINK](https://coeiroink.com/)の音声合成エンジンを呼ぶための Windows PowerShell スクリプトです。[Recotte Studio の「ユーザー定義音声機能」](https://youtu.be/dB5rDhiPMmQ)に使用できます
+
+VOICEVOX, COEIRINK (v1)にはvoivocaを、COEIROINK v2にはcoeicaを利用してください
+
+<Callout type="warning" emoji="⚠️">
+coeicaはMYCOEIROINKに対応していますが、voivocaは未対応です。また今のところ対応予定はありません。要望あればお寄せください（プルリクエストで実装を送ってもらえるとなお嬉しいです）
+</Callout>
+
 
 ## 使用例
 
@@ -135,6 +143,6 @@ import CoeiroinkSpeaker from '../../components/coeiroink-speaker.mdx'
 - ユーザ向け
   - 本スクリプトはインターネット全般で非商用・商用問わず利用できます
   - Recotte Studio や VOICEVOX、各キャラクターの利用規約に従ってください
-  - ニコニコ動画で使う際はニコニ･コモンズの [voivoca](https://commons.nicovideo.jp/material/nc252957) のコンテンツツリー登録にご協力ください
+  - ニコニコ動画で使う際はニコニ･コモンズの [voivoca/coeica](https://commons.nicovideo.jp/material/nc252957) のコンテンツツリー登録にご協力ください
 - 開発者向け
   - スクリプト本体は[MIT License](https://github.com/so-c/soc-toolbox/blob/main/LICENSE)です
